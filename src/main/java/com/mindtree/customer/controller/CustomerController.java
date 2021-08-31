@@ -25,7 +25,7 @@ public class CustomerController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String welcomePage() {
-		return "index";
+		return "Welcome to Customer Application";
 	}
 
 	@GetMapping("/customers")
